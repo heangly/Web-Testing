@@ -1,9 +1,9 @@
-import Jumbotron from './Jumbotron'
+// import Jumbotron from './Jumbotron'
 // import Travel from './Travel'
-// import Table from './Table'
-// import fakeEmployees from './mocks/employees'
+import Table from './Table'
+import fakeEmployees from './mocks/employees'
 
 // const App = () => <Table employees={fakeEmployees} />
-const App = () => <Jumbotron />
+const App = () => <Table employees={fakeEmployees} />
 
 export default App

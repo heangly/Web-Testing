@@ -1,9 +1,8 @@
 import { render } from '@testing-library/react'
 import Travel from './Travel'
 
-it('displays the header and paragraph text', () => {
+test('displays the header and paragraph text', () => {
   const { container } = render(<Travel />)
-
   expect(container).toMatchInlineSnapshot(`
     <div>
       <div
